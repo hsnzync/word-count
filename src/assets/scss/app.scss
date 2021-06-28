@@ -1,0 +1,14 @@
+// Define variable defaults
+$color-dark-gray: #2c3e50;
+@import 'bootstrap/scss/bootstrap.scss';
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $color-dark-gray;
+  margin-top: 60px;
+  .input-word {
+    width: auto;
+  }
+}
